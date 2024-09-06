@@ -1,12 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Application de Notes</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="container">
+      <h1>NOTES-WebApp</h1>
+      <div id="containerNewNote">
+        <form id="noteForm">
+          <input
+            type="text"
+            id="newTitleInput"
+            placeholder="Entrez le titre de votre note..."
+            required
+          />
+          <textarea
+            id="newTextInput"
+            placeholder="Entrez votre note ici..."
+            required
+          ></textarea>
+          <button id="createBtn" type="submit">Créer</button>
+        </form>
+      </div>
+      <div id="notesListContainer">
+        <div id="notesCards"></div>
+      </div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
