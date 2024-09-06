@@ -3,7 +3,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 20px;
-  background-color: #116992;
+  background-color: rgb(14, 149, 187);
 }
 .container {
   max-width: 50%;
@@ -17,13 +17,15 @@ body {
 #containerNewNote {
   margin: 10px;
   padding: 10px;
-  background-color: greenyellow;
 }
 
 #notesListContainer {
+  width: 50%;
   margin: 10px;
   padding: 10px;
-  background-color: pink;
+  background-color: rgb(251, 250, 199);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 h1 {
   text-align: center;
