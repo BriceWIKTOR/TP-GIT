@@ -6,9 +6,9 @@ body {
   background-color: #116992;
 }
 .container {
-  max-width: 800px;
+  max-width: 50%;
   margin: auto;
-  background: white;
+  background: rgb(255, 255, 255);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
@@ -16,4 +16,9 @@ body {
 h1 {
   text-align: center;
   color: #333;
+}
+#noteForm {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
 }
