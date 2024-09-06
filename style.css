@@ -8,10 +8,22 @@ body {
 .container {
   max-width: 800px;
   margin: auto;
-  background: white;
+  background: grey;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+#containerNewNote {
+    margin: 10px;
+    padding: 10px;
+    background-color: greenyellow;
+}
+
+#notesListContainer {
+    margin: 10px;
+    padding: 10px;
+    background-color: pink;
 }
 h1 {
   text-align: center;
